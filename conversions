@@ -1,0 +1,25 @@
+To count no of digits =>  int digits = String.valueOf(Math.abs(n)).length();  prints in integer;
+
+int to binary => String s = Integer.toBinaryString(n);  prints in strings
+                    int number = Integer.parseInt(s);   prints in integer
+
+int to hexa => String s = Integer.toHexString(n) prints in String
+
+int to octal => String s = Integer.toOctalString(n) prints in string
+
+
+binary to int => int n = 1011 ;
+                 String bin = String.valueOf(n);
+                 int binary = Integer.parseInt(bin, 2);
+
+binary to hex => first int given in binary
+                 convert to string
+                 then convert to number by rad 2
+                 you got the number convert to hex by Integer.toHexString();
+
+char ascii => char ch = 'a';
+              int ascii = ch; // prints ascii;
+
+char digit to num => char ch = '5';
+                    int n = ch - '0' // print 5 in int
+
