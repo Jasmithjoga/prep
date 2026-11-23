@@ -23,3 +23,5 @@ char ascii => char ch = 'a';
 char digit to num => char ch = '5';
                     int n = ch - '0' // print 5 in int
 
+to remove whitespaces in a string => s=s.replaceAll("\\s+", "");    s=s.replace(" ", "");
+to remove whitespaces including front and last => s=s.trim().replace("\\s+","");
